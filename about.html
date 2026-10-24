@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About &amp; Contact | EcoWrap</title>
+<meta name="description" content="Cerita, visi, formulir permintaan, FAQ, dan tim EcoWrap.">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#konten">Lewati ke konten utama</a>
+<header class="site-header">
+  <nav class="nav" aria-label="Navigasi utama">
+    <a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="36" height="36">EcoWrap</a>
+    <ul><li><a class="link" href="index.html">Home</a></li><li><a class="link" href="products.html">Shop Products</a></li><li><a class="link" href="sustainability.html">Sustainability</a></li><li><a class="link" href="business.html">Business Solutions</a></li><li><a class="link" href="guides.html">Green Guides</a></li><li><a class="link" href="about.html" aria-current="page">About &amp; Contact</a></li></ul>
+  </nav>
+</header>
+<main id="konten">
+<section class="page-hero"><div class="wrap"><h1>About &amp; Contact</h1>
+<p>Kenali EcoWrap, siapa yang kami layani, dan bagaimana menghubungi kami.</p></div></section>
+
+<section class="section"><div class="wrap">
+  <div class="panel"><strong>Proyek bisnis konseptual.</strong> EcoWrap dibuat sebagai proyek UTS Pemrograman Web dan belum beroperasi secara nyata. Produk, harga, dan layanan ditampilkan sebagai simulasi.</div>
+  <div class="grid g2" style="margin-top:2rem">
+    <div><h2>Cerita Kami</h2><p>EcoWrap lahir dari pengamatan bahwa banyak usaha kuliner kecil ingin memakai kemasan yang lebih bertanggung jawab, tetapi bingung memilih bahan dan cara mengelolanya.</p></div>
+    <div><h2>Sasaran Pelanggan</h2><ul><li>Coffee shop dan kedai minuman</li><li>Restoran dengan layanan bawa pulang</li><li>UMKM kuliner yang baru mulai</li></ul></div>
+    <div class="panel"><h3>Visi</h3><p>Menjadi pemasok kemasan yang membantu usaha kuliner Indonesia beralih ke pilihan yang lebih bertanggung jawab.</p></div>
+    <div class="panel"><h3>Misi</h3><ol><li>Menyediakan kemasan dengan informasi material yang jelas.</li><li>Mengedukasi cara memilih dan mengelola kemasan.</li><li>Mendukung UMKM melalui paket yang terjangkau.</li></ol></div>
+  </div>
+</div></section>
+
+<section class="section section-pale" id="formulir"><div class="wrap grid g2" style="align-items:start">
+  <div>
+    <h2>Formulir Permintaan</h2>
+    <p class="intro">Isi data di bawah untuk memesan produk atau meminta penawaran. Formulir ini belum terhubung ke server.</p>
+    <p>Email: info@ecowrap.id<br>WhatsApp: +62 812 3456 7890<br>Alamat: Jl. Contoh No. 10 (alamat simulasi)</p>
+  </div>
+  <form action="mailto:info@ecowrap.id" method="post" enctype="text/plain">
+    <label for="nama">Nama lengkap</label><input id="nama" name="nama" type="text" required>
+    <label for="email">Email</label><input id="email" name="email" type="email" required>
+    <label for="usaha">Nama usaha</label><input id="usaha" name="usaha" type="text">
+    <label for="jenis">Jenis permintaan</label>
+    <select id="jenis" name="jenis"><option>Order Now</option><option>Request a Quote</option><option>Request Business Quote</option></select>
+    <label for="produk">Produk atau paket yang diminati</label><input id="produk" name="produk" type="text" placeholder="Contoh: EcoBowl 750 ml">
+    <label for="pesan">Pesan</label><textarea id="pesan" name="pesan" placeholder="Jumlah, kebutuhan branding, atau pertanyaan"></textarea>
+    <button class="btn" type="submit">Kirim Permintaan</button>
+  </form>
+</div></section>
+
+<section class="section"><div class="wrap"><h2>FAQ</h2><details><summary>Bagaimana cara memesan?</summary><p>Isi formulir di halaman ini, pilih Order Now atau Request a Quote, lalu sebutkan produk dan jumlahnya. (Simulasi)</p></details><details><summary>Apakah ada minimal pemesanan?</summary><p>Produk dijual per paket sesuai isi yang tertera. Minimal untuk custom branding ditentukan setelah penawaran.</p></details><details><summary>Apakah semua kemasan bisa dikomposkan?</summary><p>Tidak. Bagasse dan bambu umumnya lebih mudah dikelola sebagai sampah organik, sementara kertas berlapis PLA perlu fasilitas khusus. Lihat keterangan pada tiap produk.</p></details><details><summary>Apakah harga di website ini asli?</summary><p>Tidak. Harga hanya simulasi untuk mockup dan bukan harga pemasok terverifikasi.</p></details></div></section>
+
+<section class="section section-pale"><div class="wrap">
+  <h2>Tim Pengembang</h2><p class="intro">Isi dengan data kelompokmu.</p>
+  <div class="tabel"><table>
+    <thead><tr><th>Nama</th><th>NIM</th><th>Pembagian tugas</th></tr></thead>
+    <tbody>
+      <tr><td>Nama Anggota 1</td><td>000000000</td><td>Koordinator, halaman Home dan CSS utama</td></tr>
+      <tr><td>Nama Anggota 2</td><td>000000000</td><td>Halaman Shop Products</td></tr>
+      <tr><td>Nama Anggota 3</td><td>000000000</td><td>Sustainability dan Green Guides</td></tr>
+      <tr><td>Nama Anggota 4</td><td>000000000</td><td>Business Solutions dan About &amp; Contact</td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <h2>Referensi &amp; Atribusi</h2>
+  <ul>
+    <li>United Nations, <em>Sustainable Development Goal 12: Responsible Consumption and Production</em>, sdgs.un.org/goals/goal12</li>
+    <li>Kementerian Lingkungan Hidup dan Kehutanan, Sistem Informasi Pengelolaan Sampah Nasional (SIPSN), sipsn.menlhk.go.id</li>
+    <li>Ellen MacArthur Foundation, materi tentang ekonomi sirkular, ellenmacarthurfoundation.org</li>
+    <li>Ilustrasi produk, logo, dan ikon: dibuat sendiri oleh tim dalam format SVG. Emoji ditampilkan oleh sistem pengguna.</li>
+    <li>Font: Inter dan Playfair Display (Google Fonts, SIL Open Font License).</li>
+  </ul>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div><a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="36" height="36">EcoWrap</a>
+    <p>Kemasan bijak untuk usaha kuliner.<br>Proyek bisnis konseptual – UTS Pemrograman Web.</p></div>
+    <nav aria-label="Navigasi footer"><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Shop Products</a></li><li><a href="sustainability.html">Sustainability</a></li><li><a href="business.html">Business Solutions</a></li><li><a href="guides.html">Green Guides</a></li><li><a href="about.html">About &amp; Contact</a></li></ul></nav>
+    <small>© 2026 EcoWrap. Harga dan produk hanya simulasi untuk keperluan akademik.</small>
+  </div>
+</footer>
+</body>
+</html>
