@@ -17,10 +17,14 @@
   --radius: 14px;
   --max: 1100px;
   --font-head: "Inter", sans-serif;
+   --font-weight-head: 700;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 /* ---------- Dasar ---------- */
+h1, h2, h3 {
+    font-weight: var(--font-weight-head);
+}
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
