@@ -56,8 +56,8 @@ ecowrap-site/
 ```
 
 ## Website dan Repository
-- Website: https://USERNAME.github.io/ecowrap/
-- Repository: https://github.com/USERNAME/ecowrap
+- Website: https://dwindayani.github.io/ecowrap/
+- Repository: https://github.com/dwindayani/ecowrap
 
 ## Referensi
 - UN, SDG 12: sdgs.un.org/goals/goal12
