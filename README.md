@@ -5,9 +5,9 @@ Tema: UMKM Berkelanjutan – SDG 12 (Konsumsi dan Produksi yang Bertanggung Jawa
 ## Anggota Kelompok
 | Nama | NIM | Tugas |
 |------|-----|-------|
-| Nama Anggota 1 | 000000000 | Isi sesuai kelompok |
-| Nama Anggota 2 | 000000000 | Isi sesuai kelompok |
-| Nama Anggota 3 | 000000000 | Isi sesuai kelompok |
+| Ni Made Dwindayani | 2515091016 | Koordinator, halaman Home dan CSS utama |
+| Ni Wayan Ami Pratiwi | 2515091049 | Halaman Shop Products dan Sustainability |
+| Arminta Aprilailia Arumsari | 2515091083 | Halaman Green Guides, Business Solutions, dan About & Contact |
 
 ## Deskripsi Website
 EcoWrap adalah pemasok kemasan fiktif untuk coffee shop, restoran, dan UMKM kuliner. Website memadukan katalog produk dengan edukasi agar pengunjung memahami alasan memilih kemasan berkelanjutan. Produk dan harga hanya simulasi.
