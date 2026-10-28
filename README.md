@@ -17,7 +17,7 @@ Sasaran pengguna: pemilik usaha kuliner dan masyarakat umum.
 | File | Fungsi |
 |------|--------|
 | index.html | Beranda: hero, produk unggulan, kategori, keunggulan, ajakan UMKM |
-| products.html | Katalog 5 kategori dengan material, ukuran, isi, harga simulasi, tombol Order Now / Request a Quote |
+| products.html | Katalog 5 kategori dengan material, ukuran, isi, harga simulasi, tombol Order Now |
 | sustainability.html | Edukasi masalah kemasan, material, reusable/recyclable/compostable, SDG 12 |
 | business.html | Paket B2B, custom branding, panduan memilih paket |
 | guides.html | Lima artikel tips praktis |
